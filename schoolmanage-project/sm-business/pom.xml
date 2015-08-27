@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.schoolmanage</groupId>
+		<artifactId>schoolmanage-project</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>sm-business</artifactId>
+	<packaging>war</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>com.schoolmanage</groupId>
+			<artifactId>sm-service-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.schoolmanage</groupId>
+			<artifactId>sm-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- 目前先不做成分布式的先做成一起的所以将service加上以后修改了就去除 -->
+		<dependency>
+			<groupId>com.schoolmanage</groupId>
+			<artifactId>sm-service-provider</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.schoolmanage</groupId>
+			<artifactId>sm-dao-provider</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- 上面的依赖以后会使用webservice 或者其他的rmi的远程调用解决 -->
+	</dependencies>
+</project>

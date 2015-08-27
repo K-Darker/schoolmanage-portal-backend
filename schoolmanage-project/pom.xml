@@ -1,9 +1,20 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.schoolmanage</groupId>
-  <artifactId>schoolmanage-project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>schoolmanage</name>
-  <description>前端模块主要是接受前端的请求，调用Service获得数据</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.schoolmanage</groupId>
+	<artifactId>schoolmanage-project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>schoolmanage</name>
+	<description>前端模块主要是接受前端的请求，调用Service获得数据</description>
+	<modules>
+		<module>sm-service</module>
+		<module>sm-dao</module>
+		<module>sm-common</module>
+		<module>sm-business</module>
+	</modules>
+	<properties>
+		<java.version>1.6</java.version>
+		<project.version>0.0.1-SNAPSHOT</project.version>
+	</properties>
 </project>

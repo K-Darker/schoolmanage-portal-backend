@@ -1,0 +1,75 @@
+body{
+	background-color: #184D8C;
+	font-size: 12px;
+	margin:0 auto;
+	width:1055px;
+	border: 1px;
+}
+.userlogin{
+  width: 569px;
+  height: 256px;
+  padding-left:0px;
+  background-image: url("../images/login_bg.gif");
+  background-repeat:no-repeat;
+}
+.login_form{
+	padding-left: 117px;
+	padding-top: 117px;
+	
+}
+.username{
+	 background-image: url("../images/user_login_name.gif");
+	 background-repeat:no-repeat;
+	 width: 165px;
+	 height: 21px;
+}
+.userinput{
+	padding-left:21px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background: transparent;/* 将文本框变为透明的*/
+}
+.password{
+	background-image: url("../images/user_login_password.gif");
+	background-repeat:no-repeat;
+	width: 165px;
+	height: 21px;
+}
+.pwdinput{
+	padding-left:21px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background: transparent;
+}
+.code{
+	border:#666666 solid 1px;
+	background-color:#D3EDF9;
+	width: 60px;
+}
+.remember{
+	padding-left:45px
+}
+.rem_bg{
+	background-image: url("../images/user_login_validatecode.gif");
+	background-repeat:no-repeat;
+	display:block;
+	float:right;
+	padding-top: 0px;
+	padding-left:10px;
+	padding-right:40px;
+	width:30px;
+	height: 21px;
+	vertical-align: middle;
+	text-align: center;
+	line-height:24px;
+}
+.submit_user{
+	margin-top:-105px;
+	margin-right:64px;
+	float: right;
+	
+}
