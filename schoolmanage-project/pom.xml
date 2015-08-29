@@ -16,7 +16,6 @@
 	<properties>
 		<java.version>1.6</java.version>
 		<project.version>0.0.1-SNAPSHOT</project.version>
-		<java.home>D:\Java\jdk1.7.0_21\jre</java.home>
 	</properties>
 	<build>
 		<plugins>
