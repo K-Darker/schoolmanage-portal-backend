@@ -15,6 +15,11 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>backlego</groupId>
+			<artifactId>backlego-struts</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>com.schoolmanage</groupId>
 			<artifactId>sm-common</artifactId>
 			<version>${project.version}</version>
@@ -32,4 +37,5 @@
 		</dependency>
 		<!-- 上面的依赖以后会使用webservice 或者其他的rmi的远程调用解决 -->
 	</dependencies>
+	
 </project>

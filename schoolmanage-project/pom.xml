@@ -16,5 +16,33 @@
 	<properties>
 		<java.version>1.6</java.version>
 		<project.version>0.0.1-SNAPSHOT</project.version>
+		<java.home>D:\Java\jdk1.7.0_21\jre</java.home>
 	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>UTF-8</encoding>
+					<verbal>true</verbal>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<compilerArguments>
+						<bootclasspath>
+							${java.home}\lib\rt.jar;${java.home}\lib\jce.jar
+						</bootclasspath>
+					</compilerArguments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
