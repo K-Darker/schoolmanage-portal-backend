@@ -19,7 +19,7 @@
   		</dependency>
   		<dependency>
   			<groupId>backlego</groupId>
-  			<artifactId>backlego-orm</artifactId>
+  			<artifactId>backlego-orm-hibernate</artifactId>
   			<version>${project.version}</version>
   		</dependency>
   </dependencies>
